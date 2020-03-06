@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06E669D5241226BE005406CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06E669D4241226BE005406CC /* main.cpp */; };
+		06777D2A24125039002599B8 /* 0004_RootsOfAQuadraticEeq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06777D2624125039002599B8 /* 0004_RootsOfAQuadraticEeq.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		06777D2424125039002599B8 /* 0002_Area.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 0002_Area.cpp; sourceTree = "<group>"; };
+		06777D2524125039002599B8 /* 0003_SumOfNNatNum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 0003_SumOfNNatNum.cpp; sourceTree = "<group>"; };
+		06777D2624125039002599B8 /* 0004_RootsOfAQuadraticEeq.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 0004_RootsOfAQuadraticEeq.cpp; sourceTree = "<group>"; };
+		06777D2724125039002599B8 /* 0001_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 0001_main.cpp; sourceTree = "<group>"; };
 		06E669D1241226BE005406CC /* Basic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Basic; sourceTree = BUILT_PRODUCTS_DIR; };
-		06E669D4241226BE005406CC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,10 @@
 		06E669D3241226BE005406CC /* Basic */ = {
 			isa = PBXGroup;
 			children = (
-				06E669D4241226BE005406CC /* main.cpp */,
+				06777D2724125039002599B8 /* 0001_main.cpp */,
+				06777D2424125039002599B8 /* 0002_Area.cpp */,
+				06777D2524125039002599B8 /* 0003_SumOfNNatNum.cpp */,
+				06777D2624125039002599B8 /* 0004_RootsOfAQuadraticEeq.cpp */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -119,7 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06E669D5241226BE005406CC /* main.cpp in Sources */,
+				06777D2A24125039002599B8 /* 0004_RootsOfAQuadraticEeq.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
