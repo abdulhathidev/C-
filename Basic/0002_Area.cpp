@@ -11,8 +11,19 @@ void Area()
     cout << "Area : " << c << endl;
 }
 
+//Area of circle formula : A = πr²
+void AreaOfCircle()
+{
+    float r, area;
+    cout << "Enter the radius of the circle : ";
+    cin >> r;
+    area = 3.1425 * r * r;
+    cout << "Area of the circle is : " << area << endl;
+}
+
 int main()
 {
     Area();
+    AreaOfCircle();
     return 0;
 }
