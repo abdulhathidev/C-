@@ -35,7 +35,7 @@ public:
     string GetName() { return Name; }
     int TotalMarks()
     {
-        int sum;
+        int sum = 0;
         for (int i = 0; i < 3; i++)
         {
             sum += Marks[i].Mark;
