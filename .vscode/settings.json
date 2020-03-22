@@ -4,6 +4,9 @@
         "iostream": "cpp",
         "istream": "cpp",
         "string": "cpp",
-        "complex": "cpp"
+        "complex": "cpp",
+        "forward_list": "cpp",
+        "map": "cpp",
+        "queue": "cpp"
     }
 }
