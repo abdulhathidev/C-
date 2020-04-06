@@ -5,62 +5,82 @@ using namespace std;
 
 class Account
 {
-private:
+
+public:
     int AccountNumber;
     string FirstName;
     string LastName;
     double TotalBalance;
     int GetNewAccountNumber();
-
-public:
     Account() {}
-    Account(bool isExist)
-    {
-        DisplayAccountDetails();
-    }
     Account(string firstName, string lastName)
     {
         //this->AccountNumber = accountNumber;
         this->AccountNumber = 000001;
         this->FirstName = firstName;
         this->LastName = lastName;
-        //CreateAccount();
     }
-    void CreateAccount()
+};
+
+class TechHathiBank
+{
+private:
+    string FileName = "TechhathiBank.text";
+    Account currentAccount;
+
+public:
+    friend ofstream &operator<<(ofstream &ofs, Account &account);
+    friend ifstream &operator>>(ifstream &ifs, Account &account);
+    TechHathiBank()
     {
-        ofstream ofs("TechhathiBank.text");
-        ofs << this;
+    }
+
+    void CreateAccount(Account &account)
+    {
+        ofstream ofs;
+        ofs.open(FileName, ofstream::app);
+        ofs << &account;
         ofs.close();
-        cout << "Hi Mr. " << FirstName << " " << LastName << ". Your account has been created successfully !!!" << endl
+        cout << "Hi Mr. " << account.FirstName << " " << account.LastName << ". Your account has been created successfully !!!" << endl
              << " Welcome to TechHathi Bank" << endl;
     }
-    friend ofstream &operator<<(ofstream &ofs, Account &account);
 
-    friend ifstream &operator>>(ifstream &ifs, Account &account)
+    void ReadAccount(int accountNumber)
     {
-        ifs >> account.AccountNumber >> account.FirstName >> account.LastName >> account.TotalBalance;
-        return ifs;
     }
-    void DisplayAccountDetails()
+
+    void DisplayAccountDetails(Account account)
     {
-        cout << "Account Number : " << AccountNumber << endl;
-        cout << "First Name     : " << FirstName << endl;
-        cout << "Last Name      : " << LastName << endl;
-        cout << "Total Balance  : " << TotalBalance << endl;
+        cout << "Please enter your Bank Account number : ";
+        int number;
+        cin >> number;
+        cout << "Account Number : " << account.AccountNumber << endl;
+        cout << "First Name     : " << account.FirstName << endl;
+        cout << "Last Name      : " << account.LastName << endl;
+        cout << "Total Balance  : " << account.TotalBalance << endl;
     }
+    /**/
 };
 
 ofstream &operator<<(ofstream &ofs, Account &account)
 {
-    ofs << account.AccountNumber << endl
-        << account.FirstName << endl
-        << account.LastName << endl
+    //account = Account();
+    ofs << account.AccountNumber << "|"
+        << account.FirstName << "|"
+        << account.LastName << "|"
         << account.TotalBalance << endl;
     return ofs;
 }
 
+ifstream &operator>>(ifstream &ifs, Account &account)
+{
+    ifs >> account.AccountNumber >> account.FirstName >> account.LastName >> account.TotalBalance;
+    return ifs;
+}
+
 int main()
 {
+    /*
     Account newAccount;
     newAccount = Account("Abdul", "Hathi");
     newAccount.CreateAccount();
@@ -68,37 +88,59 @@ int main()
     // ofstream ofs("test.text");
     // ofs << newAccount;
     // ofs.close();
-
-    /*
-    cout << "Welcome to TechHathi Bank" << endl
-         << "Please Press the number to the below TechHathi Bank operations" << endl
-         << "Create a new Bank Account                  Press Number : 1" << endl
-         << "To see you Bank Balance                    Press Number : 2" << endl
-         << "To withdaw an amount from your account     Press Number : 3" << endl
-         << "To deplosit an amount from your account    Press Number : 4" << endl
-         << "To change your name in your account        Press Number : 5" << endl
-         << "To Delete your account from this Bank      Press Number : 6" << endl
-         << "To Display your account details            Press Number : 7" << endl;
-
-    int number = 0;
-    Account newAccount;
-    string firstName, lastName;
-    cin >> number;
-    switch (number)
-    {
-    case 1:
-        cout << "Welcome to new Account creation" << endl
-             << "Enter your First Name : ";
-        cin >> firstName;
-        cout << "Enter your Last Name : ";
-        cin >> lastName;
-        newAccount = Account(firstName, lastName);
-        break;
-    case 7:
-        newAccount = Account(true);
-        break;
-    default:
-        break;
-    }
     */
+    ifstream ifs("TechhathiBank.text");
+    if (ifs)
+    {
+        while (!ifs.eof())
+        {
+            Account acc;
+            ifs >> acc;
+            //DisplayAccountDetails(*account);
+        }
+    }
+
+    int input;
+    while (input != 0)
+    {
+        cout << "Welcome to TechHathi Bank" << endl
+             << "Please Press the number to the below TechHathi Bank operations" << endl
+             << "Create a new Bank Account                  Press Number : 1" << endl
+             << "To see you Bank Balance                    Press Number : 2" << endl
+             << "To withdaw an amount from your account     Press Number : 3" << endl
+             << "To deplosit an amount from your account    Press Number : 4" << endl
+             << "To change your name in your account        Press Number : 5" << endl
+             << "To Delete your account from this Bank      Press Number : 6" << endl
+             << "To Display your account details            Press Number : 7" << endl;
+
+        int number = 0;
+        Account newAccount;
+        string firstName, lastName;
+        cin >> number;
+        ifstream ifs("TechhathiBank.text");
+        switch (number)
+        {
+        case 1:
+            cout << "Welcome to new Account creation" << endl
+                 << "Enter your First Name : ";
+            cin >> firstName;
+            cout << "Enter your Last Name : ";
+            cin >> lastName;
+            newAccount = Account(firstName, lastName);
+            break;
+        case 7:
+            if (ifs)
+            {
+                while (!ifs.eof())
+                {
+                    Account acc;
+                    ifs >> acc;
+                    //DisplayAccountDetails(*account);
+                }
+            }
+            break;
+        default:
+            break;
+        }
+    }
 }

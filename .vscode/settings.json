@@ -7,6 +7,7 @@
         "complex": "cpp",
         "forward_list": "cpp",
         "map": "cpp",
-        "queue": "cpp"
+        "queue": "cpp",
+        "iosfwd": "cpp"
     }
 }

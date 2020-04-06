@@ -1,0 +1,3 @@
+1001|AbdulHathi|MohamedHussain|10000
+1002|Aysha|Jawahar|20000
+1003|Afsar|AbdulHathi|30000
