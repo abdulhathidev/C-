@@ -12,4 +12,8 @@ int main()
     cout << str.find_last_of('o') << endl;
 
     cout << str.find_first_of("eo") << endl;
+    
+    cout << str.find("world")<<endl;
+    
+    cout << std::string::npos << endl;
 }

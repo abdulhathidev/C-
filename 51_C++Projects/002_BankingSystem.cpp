@@ -170,15 +170,20 @@ public:
     }
     void Deposit(int accountNumber, double depositAmount)
     {
-        ifstream ifs(dataFile);
+        ifstream ifs;
+        char line[100];
+        ifs.open(dataFile);
         if (ifs)
         {
-            while (!ifs.eof())
-            {
-                string line;
-                getline(ifs, line);
-                
-            }
+            ifs >> line;
+            cout << line << endl;
+            
+//            while (!ifs.eof())
+//            {
+//                string line;
+//                getline(ifs, line);
+//
+//            }
         }
     }
     ~TechHathiBank()
@@ -241,7 +246,7 @@ int main()
         int number = 0;
         Account account;
         cin >> number;
-        int accountNumber;
+        int accountNumber = 0;
         switch (number)
         {
             case 1:
@@ -259,12 +264,13 @@ int main()
                 cout << "Please enter your account number : ";
                 cin >> accountNumber;
                 bank.ReadBankBalance(accountNumber);
-                cout << "Your account Balance is : $ " << bank.account.Balance << endl
+                cout << "Your account Balance is : $" << bank.account.Balance << endl
                 << endl;
                 break;
             case 3:
                 break;
             case 4:
+                bank.Deposit(accountNumber, 100);
                 break;
             case 5:
                 break;
