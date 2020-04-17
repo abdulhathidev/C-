@@ -4,7 +4,7 @@ using namespace std;
 class Array
 {
     
-}
+};
 
 int root[8];
 
