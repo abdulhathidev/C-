@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06AA6E9B2442BAF30012F77D /* 0006_Factorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06AA6E9A2442BAF30012F77D /* 0006_Factorial.cpp */; };
+		0643EDB2244943D800295E02 /* 0015_Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0643EDB1244943D800295E02 /* 0015_Array.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +26,9 @@
 		0623054824420265003B89E1 /* 0001_HeadAndTailRecursion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0001_HeadAndTailRecursion.cpp; sourceTree = "<group>"; };
 		0623054A24420AD0003B89E1 /* 0002_StaticVsGlobalVariable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0002_StaticVsGlobalVariable.cpp; sourceTree = "<group>"; };
 		0623054C24420D7B003B89E1 /* 0003_TreeRecursion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0003_TreeRecursion.cpp; sourceTree = "<group>"; };
+		062512EF2448A72A00355EEC /* 0013_NCRCombinationFormula.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0013_NCRCombinationFormula.cpp; sourceTree = "<group>"; };
+		0643EDAF244943C400295E02 /* 0014_TowerOfHonoi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0014_TowerOfHonoi.cpp; sourceTree = "<group>"; };
+		0643EDB1244943D800295E02 /* 0015_Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0015_Array.cpp; sourceTree = "<group>"; };
 		06708BB1243C6F4800E4AECC /* C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06708BC1243C710000E4AECC /* 0012_EnumDataType.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 0012_EnumDataType.cpp; sourceTree = "<group>"; };
 		06708BC2243C710000E4AECC /* 0006.Volume.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 0006.Volume.cpp; sourceTree = "<group>"; };
@@ -189,8 +192,13 @@
 		06708C8B243C717A00E4AECC /* 0057_FunctionOverloadingForSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 0057_FunctionOverloadingForSum.cpp; sourceTree = "<group>"; };
 		06708C8C243C717A00E4AECC /* 0066_RecursiveFunction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 0066_RecursiveFunction.cpp; sourceTree = "<group>"; };
 		06AA6E962442B5800012F77D /* 0004_IndirectRecursion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0004_IndirectRecursion.cpp; sourceTree = "<group>"; };
-		06AA6E982442B87F0012F77D /* 0005_SumofNNaturalNums.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0005_SumofNNaturalNums.cpp; sourceTree = "<group>"; };
-		06AA6E9A2442BAF30012F77D /* 0006_Factorial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0006_Factorial.cpp; sourceTree = "<group>"; };
+		06AA6E982442B87F0012F77D /* 0006_SumofNNaturalNums.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0006_SumofNNaturalNums.cpp; sourceTree = "<group>"; };
+		06AA6E9A2442BAF30012F77D /* 0007_Factorial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0007_Factorial.cpp; sourceTree = "<group>"; };
+		06DCA6D52443B7E800E76DCD /* 0005_NestedRecursion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0005_NestedRecursion.cpp; sourceTree = "<group>"; };
+		06DCA6D72443BEB700E76DCD /* 0008_Power.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0008_Power.cpp; sourceTree = "<group>"; };
+		06DCA6D92443CAD100E76DCD /* 0009_TylorSeries.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0009_TylorSeries.cpp; sourceTree = "<group>"; };
+		06DCA6DB2443E77200E76DCD /* 0010_TylorSeriesByHornersRule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0010_TylorSeriesByHornersRule.cpp; sourceTree = "<group>"; };
+		06DCA6DD244416B700E76DCD /* 0011_Fibonacci.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0011_Fibonacci.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -442,8 +450,16 @@
 				0623054A24420AD0003B89E1 /* 0002_StaticVsGlobalVariable.cpp */,
 				0623054C24420D7B003B89E1 /* 0003_TreeRecursion.cpp */,
 				06AA6E962442B5800012F77D /* 0004_IndirectRecursion.cpp */,
-				06AA6E982442B87F0012F77D /* 0005_SumofNNaturalNums.cpp */,
-				06AA6E9A2442BAF30012F77D /* 0006_Factorial.cpp */,
+				06DCA6D52443B7E800E76DCD /* 0005_NestedRecursion.cpp */,
+				06AA6E982442B87F0012F77D /* 0006_SumofNNaturalNums.cpp */,
+				06AA6E9A2442BAF30012F77D /* 0007_Factorial.cpp */,
+				06DCA6D72443BEB700E76DCD /* 0008_Power.cpp */,
+				06DCA6D92443CAD100E76DCD /* 0009_TylorSeries.cpp */,
+				06DCA6DB2443E77200E76DCD /* 0010_TylorSeriesByHornersRule.cpp */,
+				06DCA6DD244416B700E76DCD /* 0011_Fibonacci.cpp */,
+				062512EF2448A72A00355EEC /* 0013_NCRCombinationFormula.cpp */,
+				0643EDAF244943C400295E02 /* 0014_TowerOfHonoi.cpp */,
+				0643EDB1244943D800295E02 /* 0015_Array.cpp */,
 			);
 			path = 24_Algorithms;
 			sourceTree = "<group>";
@@ -675,7 +691,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06AA6E9B2442BAF30012F77D /* 0006_Factorial.cpp in Sources */,
+				0643EDB2244943D800295E02 /* 0015_Array.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
