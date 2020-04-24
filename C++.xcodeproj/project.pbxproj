@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06CB7FE02452B93A001204BB /* 0031_ParanthesesMatching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06CB7FD82452A4EE001204BB /* 0031_ParanthesesMatching.cpp */; };
+		06CB7FE22452BC45001204BB /* 0032_QueueByLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06CB7FE12452BC45001204BB /* 0032_QueueByLinkedList.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -200,6 +200,7 @@
 		06BC5361244FD120007214A5 /* 0028_PolynomialByLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0028_PolynomialByLinkedList.cpp; sourceTree = "<group>"; };
 		06BC536424503492007214A5 /* Test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
 		06CB7FD82452A4EE001204BB /* 0031_ParanthesesMatching.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0031_ParanthesesMatching.cpp; sourceTree = "<group>"; };
+		06CB7FE12452BC45001204BB /* 0032_QueueByLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0032_QueueByLinkedList.cpp; sourceTree = "<group>"; };
 		06DCA6D52443B7E800E76DCD /* 0005_NestedRecursion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0005_NestedRecursion.cpp; sourceTree = "<group>"; };
 		06DCA6D72443BEB700E76DCD /* 0008_Power.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0008_Power.cpp; sourceTree = "<group>"; };
 		06DCA6D92443CAD100E76DCD /* 0009_TylorSeries.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0009_TylorSeries.cpp; sourceTree = "<group>"; };
@@ -485,6 +486,7 @@
 				069EEB6D24513E65007BD6BD /* 0029_StackByArray.cpp */,
 				069EEB6F2451463A007BD6BD /* 0030_StackByLinkedList.cpp */,
 				06CB7FD82452A4EE001204BB /* 0031_ParanthesesMatching.cpp */,
+				06CB7FE12452BC45001204BB /* 0032_QueueByLinkedList.cpp */,
 			);
 			path = 24_Algorithms;
 			sourceTree = "<group>";
@@ -723,7 +725,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06CB7FE02452B93A001204BB /* 0031_ParanthesesMatching.cpp in Sources */,
+				06CB7FE22452BC45001204BB /* 0032_QueueByLinkedList.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
