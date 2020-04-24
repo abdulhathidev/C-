@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0643EDB2244943D800295E02 /* 0015_Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0643EDB1244943D800295E02 /* 0015_Array.cpp */; };
+		06CB7FE02452B93A001204BB /* 0031_ParanthesesMatching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06CB7FD82452A4EE001204BB /* 0031_ParanthesesMatching.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +29,7 @@
 		062512EF2448A72A00355EEC /* 0013_NCRCombinationFormula.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0013_NCRCombinationFormula.cpp; sourceTree = "<group>"; };
 		0643EDAF244943C400295E02 /* 0014_TowerOfHonoi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0014_TowerOfHonoi.cpp; sourceTree = "<group>"; };
 		0643EDB1244943D800295E02 /* 0015_Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0015_Array.cpp; sourceTree = "<group>"; };
+		066793FA244D0B7A00224E74 /* 0027_DoublyLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0027_DoublyLinkedList.cpp; sourceTree = "<group>"; };
 		06708BB1243C6F4800E4AECC /* C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06708BC1243C710000E4AECC /* 0012_EnumDataType.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 0012_EnumDataType.cpp; sourceTree = "<group>"; };
 		06708BC2243C710000E4AECC /* 0006.Volume.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 0006.Volume.cpp; sourceTree = "<group>"; };
@@ -191,14 +192,25 @@
 		06708C8A243C717A00E4AECC /* 0063_ReturnByReferrence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 0063_ReturnByReferrence.cpp; sourceTree = "<group>"; };
 		06708C8B243C717A00E4AECC /* 0057_FunctionOverloadingForSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 0057_FunctionOverloadingForSum.cpp; sourceTree = "<group>"; };
 		06708C8C243C717A00E4AECC /* 0066_RecursiveFunction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 0066_RecursiveFunction.cpp; sourceTree = "<group>"; };
+		069EEB6D24513E65007BD6BD /* 0029_StackByArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0029_StackByArray.cpp; sourceTree = "<group>"; };
+		069EEB6F2451463A007BD6BD /* 0030_StackByLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0030_StackByLinkedList.cpp; sourceTree = "<group>"; };
 		06AA6E962442B5800012F77D /* 0004_IndirectRecursion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0004_IndirectRecursion.cpp; sourceTree = "<group>"; };
 		06AA6E982442B87F0012F77D /* 0006_SumofNNaturalNums.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0006_SumofNNaturalNums.cpp; sourceTree = "<group>"; };
 		06AA6E9A2442BAF30012F77D /* 0007_Factorial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0007_Factorial.cpp; sourceTree = "<group>"; };
+		06BC5361244FD120007214A5 /* 0028_PolynomialByLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0028_PolynomialByLinkedList.cpp; sourceTree = "<group>"; };
+		06BC536424503492007214A5 /* Test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
+		06CB7FD82452A4EE001204BB /* 0031_ParanthesesMatching.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0031_ParanthesesMatching.cpp; sourceTree = "<group>"; };
 		06DCA6D52443B7E800E76DCD /* 0005_NestedRecursion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0005_NestedRecursion.cpp; sourceTree = "<group>"; };
 		06DCA6D72443BEB700E76DCD /* 0008_Power.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0008_Power.cpp; sourceTree = "<group>"; };
 		06DCA6D92443CAD100E76DCD /* 0009_TylorSeries.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0009_TylorSeries.cpp; sourceTree = "<group>"; };
 		06DCA6DB2443E77200E76DCD /* 0010_TylorSeriesByHornersRule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0010_TylorSeriesByHornersRule.cpp; sourceTree = "<group>"; };
 		06DCA6DD244416B700E76DCD /* 0011_Fibonacci.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0011_Fibonacci.cpp; sourceTree = "<group>"; };
+		06E2DB712449FDF40030D65E /* 0016_DiagonalMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0016_DiagonalMatrix.cpp; sourceTree = "<group>"; };
+		06E2DB73244A02DC0030D65E /* 0017_LowerTriangleMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0017_LowerTriangleMatrix.cpp; sourceTree = "<group>"; };
+		06E2DB75244A02F70030D65E /* 0018_UpperTriangleMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0018_UpperTriangleMatrix.cpp; sourceTree = "<group>"; };
+		06E2DB77244A030F0030D65E /* 0019_SparseMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0019_SparseMatrix.cpp; sourceTree = "<group>"; };
+		06E2DB79244A09590030D65E /* 0020_Polynomial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0020_Polynomial.cpp; sourceTree = "<group>"; };
+		06E2DB7B244A097B0030D65E /* 0026_SinglyLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0026_SinglyLinkedList.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +256,7 @@
 				06708C14243C717900E4AECC /* 51_C++Projects */,
 				06708BEF243C717900E4AECC /* Downloads */,
 				06708BB2243C6F4800E4AECC /* Products */,
+				06CB7FDE2452B915001204BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -460,6 +473,18 @@
 				062512EF2448A72A00355EEC /* 0013_NCRCombinationFormula.cpp */,
 				0643EDAF244943C400295E02 /* 0014_TowerOfHonoi.cpp */,
 				0643EDB1244943D800295E02 /* 0015_Array.cpp */,
+				06E2DB712449FDF40030D65E /* 0016_DiagonalMatrix.cpp */,
+				06E2DB73244A02DC0030D65E /* 0017_LowerTriangleMatrix.cpp */,
+				06E2DB75244A02F70030D65E /* 0018_UpperTriangleMatrix.cpp */,
+				06E2DB77244A030F0030D65E /* 0019_SparseMatrix.cpp */,
+				06E2DB79244A09590030D65E /* 0020_Polynomial.cpp */,
+				06E2DB7B244A097B0030D65E /* 0026_SinglyLinkedList.cpp */,
+				066793FA244D0B7A00224E74 /* 0027_DoublyLinkedList.cpp */,
+				06BC5361244FD120007214A5 /* 0028_PolynomialByLinkedList.cpp */,
+				06BC536424503492007214A5 /* Test.cpp */,
+				069EEB6D24513E65007BD6BD /* 0029_StackByArray.cpp */,
+				069EEB6F2451463A007BD6BD /* 0030_StackByLinkedList.cpp */,
+				06CB7FD82452A4EE001204BB /* 0031_ParanthesesMatching.cpp */,
 			);
 			path = 24_Algorithms;
 			sourceTree = "<group>";
@@ -634,6 +659,13 @@
 			path = 07_Functions;
 			sourceTree = "<group>";
 		};
+		06CB7FDE2452B915001204BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -691,7 +723,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0643EDB2244943D800295E02 /* 0015_Array.cpp in Sources */,
+				06CB7FE02452B93A001204BB /* 0031_ParanthesesMatching.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -813,6 +845,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8CNYE6YMM2;
 				ENABLE_HARDENED_RUNTIME = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
