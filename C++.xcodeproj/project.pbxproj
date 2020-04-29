@@ -13,6 +13,7 @@
 		06227D9C24540BE900999897 /* 0034_QueueByArrayAndResetPointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06227D9B24540BE900999897 /* 0034_QueueByArrayAndResetPointer.cpp */; };
 		06227D9E245412BC00999897 /* 0035_CircularQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06227D9D245412BC00999897 /* 0035_CircularQueue.cpp */; };
 		06227DA024542BC000999897 /* 0036_QueueByLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06227D9F24542BC000999897 /* 0036_QueueByLinkedList.cpp */; };
+		06BE4949245509C200E8A2D0 /* 0037_Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06BE4948245509C200E8A2D0 /* 0037_Tree.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		0623054A24420AD0003B89E1 /* 0002_StaticVsGlobalVariable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0002_StaticVsGlobalVariable.cpp; sourceTree = "<group>"; };
 		0623054C24420D7B003B89E1 /* 0003_TreeRecursion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0003_TreeRecursion.cpp; sourceTree = "<group>"; };
 		062512EF2448A72A00355EEC /* 0013_NCRCombinationFormula.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0013_NCRCombinationFormula.cpp; sourceTree = "<group>"; };
+		062A356E2457B3D300706DB5 /* 0037_Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 0037_Tree.h; sourceTree = "<group>"; };
 		0633B70D24536BF4005A50B3 /* 0033_QueueByArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0033_QueueByArray.cpp; sourceTree = "<group>"; };
 		0643EDAF244943C400295E02 /* 0014_TowerOfHonoi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0014_TowerOfHonoi.cpp; sourceTree = "<group>"; };
 		0643EDB1244943D800295E02 /* 0015_Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0015_Array.cpp; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 		06AA6E9A2442BAF30012F77D /* 0007_Factorial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0007_Factorial.cpp; sourceTree = "<group>"; };
 		06BC5361244FD120007214A5 /* 0028_PolynomialByLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0028_PolynomialByLinkedList.cpp; sourceTree = "<group>"; };
 		06BC536424503492007214A5 /* Test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
+		06BE4948245509C200E8A2D0 /* 0037_Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0037_Tree.cpp; sourceTree = "<group>"; };
 		06CB7FD82452A4EE001204BB /* 0031_ParanthesesMatching.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0031_ParanthesesMatching.cpp; sourceTree = "<group>"; };
 		06CB7FE12452BC45001204BB /* 0032_QueueByLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0032_QueueByLinkedList.cpp; sourceTree = "<group>"; };
 		06DCA6D52443B7E800E76DCD /* 0005_NestedRecursion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0005_NestedRecursion.cpp; sourceTree = "<group>"; };
@@ -501,9 +504,11 @@
 				0633B70D24536BF4005A50B3 /* 0033_QueueByArray.cpp */,
 				06227D9B24540BE900999897 /* 0034_QueueByArrayAndResetPointer.cpp */,
 				06227D9D245412BC00999897 /* 0035_CircularQueue.cpp */,
+				06227D9F24542BC000999897 /* 0036_QueueByLinkedList.cpp */,
+				06BE4948245509C200E8A2D0 /* 0037_Tree.cpp */,
+				062A356E2457B3D300706DB5 /* 0037_Tree.h */,
 				06227D962454047800999897 /* Log.cpp */,
 				06BC536424503492007214A5 /* Test.cpp */,
-				06227D9F24542BC000999897 /* 0036_QueueByLinkedList.cpp */,
 			);
 			path = 24_Algorithms;
 			sourceTree = "<group>";
@@ -748,6 +753,7 @@
 				06227D972454047800999897 /* Log.cpp in Sources */,
 				06227DA024542BC000999897 /* 0036_QueueByLinkedList.cpp in Sources */,
 				06227D98245404F000999897 /* 0033_QueueByArray.cpp in Sources */,
+				06BE4949245509C200E8A2D0 /* 0037_Tree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

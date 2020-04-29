@@ -3,7 +3,7 @@ using namespace std;
 
 void LogMessage(char *message);
 
-class Queue
+class QueueByArray
 {
 private:
     int first;
@@ -11,7 +11,7 @@ private:
     int *arr;
     int size;
 public:
-    Queue(int size)
+    QueueByArray(int size)
     {
         this->arr = new int[size];
         this->size = size;
@@ -54,7 +54,7 @@ public:
 void main_queuebyarray()
 {
     //LogMessage("Hi how are you");
-    Queue queue(5);
+    QueueByArray queue(5);
     queue.Enqueue(1);
     queue.Enqueue(2);
     queue.Enqueue(3);

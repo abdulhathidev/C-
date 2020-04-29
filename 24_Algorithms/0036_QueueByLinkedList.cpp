@@ -64,5 +64,4 @@ void main_QueueByLinkedList()
     } catch (string ex) {
         cout << ex << endl;
     }
-    
 }
