@@ -13,6 +13,9 @@
 		06227D9C24540BE900999897 /* 0034_QueueByArrayAndResetPointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06227D9B24540BE900999897 /* 0034_QueueByArrayAndResetPointer.cpp */; };
 		06227D9E245412BC00999897 /* 0035_CircularQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06227D9D245412BC00999897 /* 0035_CircularQueue.cpp */; };
 		06227DA024542BC000999897 /* 0036_QueueByLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06227D9F24542BC000999897 /* 0036_QueueByLinkedList.cpp */; };
+		064335952461401300C8AEAA /* 0038_BinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 064335942461401300C8AEAA /* 0038_BinaryTree.cpp */; };
+		064335972461489300C8AEAA /* 0039_Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 064335962461489300C8AEAA /* 0039_Graph.cpp */; };
+		06433599246160F600C8AEAA /* 001_PointerTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06433598246160F600C8AEAA /* 001_PointerTest.cpp */; };
 		06BE4949245509C200E8A2D0 /* 0037_Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06BE4948245509C200E8A2D0 /* 0037_Tree.cpp */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +43,9 @@
 		062512EF2448A72A00355EEC /* 0013_NCRCombinationFormula.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0013_NCRCombinationFormula.cpp; sourceTree = "<group>"; };
 		062A356E2457B3D300706DB5 /* 0037_Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 0037_Tree.h; sourceTree = "<group>"; };
 		0633B70D24536BF4005A50B3 /* 0033_QueueByArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0033_QueueByArray.cpp; sourceTree = "<group>"; };
+		064335942461401300C8AEAA /* 0038_BinaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0038_BinaryTree.cpp; sourceTree = "<group>"; };
+		064335962461489300C8AEAA /* 0039_Graph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0039_Graph.cpp; sourceTree = "<group>"; };
+		06433598246160F600C8AEAA /* 001_PointerTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 001_PointerTest.cpp; sourceTree = "<group>"; };
 		0643EDAF244943C400295E02 /* 0014_TowerOfHonoi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0014_TowerOfHonoi.cpp; sourceTree = "<group>"; };
 		0643EDB1244943D800295E02 /* 0015_Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0015_Array.cpp; sourceTree = "<group>"; };
 		066793FA244D0B7A00224E74 /* 0027_DoublyLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0027_DoublyLinkedList.cpp; sourceTree = "<group>"; };
@@ -476,6 +482,7 @@
 			children = (
 				06227D992454081000999897 /* 0000_Main.cpp */,
 				0623054824420265003B89E1 /* 0001_HeadAndTailRecursion.cpp */,
+				06433598246160F600C8AEAA /* 001_PointerTest.cpp */,
 				0623054A24420AD0003B89E1 /* 0002_StaticVsGlobalVariable.cpp */,
 				0623054C24420D7B003B89E1 /* 0003_TreeRecursion.cpp */,
 				06AA6E962442B5800012F77D /* 0004_IndirectRecursion.cpp */,
@@ -507,6 +514,8 @@
 				06227D9F24542BC000999897 /* 0036_QueueByLinkedList.cpp */,
 				06BE4948245509C200E8A2D0 /* 0037_Tree.cpp */,
 				062A356E2457B3D300706DB5 /* 0037_Tree.h */,
+				064335942461401300C8AEAA /* 0038_BinaryTree.cpp */,
+				064335962461489300C8AEAA /* 0039_Graph.cpp */,
 				06227D962454047800999897 /* Log.cpp */,
 				06BC536424503492007214A5 /* Test.cpp */,
 			);
@@ -750,10 +759,13 @@
 				06227D9A2454081000999897 /* 0000_Main.cpp in Sources */,
 				06227D9E245412BC00999897 /* 0035_CircularQueue.cpp in Sources */,
 				06227D9C24540BE900999897 /* 0034_QueueByArrayAndResetPointer.cpp in Sources */,
+				064335952461401300C8AEAA /* 0038_BinaryTree.cpp in Sources */,
 				06227D972454047800999897 /* Log.cpp in Sources */,
+				06433599246160F600C8AEAA /* 001_PointerTest.cpp in Sources */,
 				06227DA024542BC000999897 /* 0036_QueueByLinkedList.cpp in Sources */,
 				06227D98245404F000999897 /* 0033_QueueByArray.cpp in Sources */,
 				06BE4949245509C200E8A2D0 /* 0037_Tree.cpp in Sources */,
+				064335972461489300C8AEAA /* 0039_Graph.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
