@@ -12,7 +12,7 @@ void main_Graph();
 
 int main()
 {
-    main_PointerTest();
+    //main_PointerTest();
     
     //main_queuebyarray();
     //main_QueueByArrayAndResetPointer();
@@ -20,5 +20,5 @@ int main()
     //main_QueueByLinkedList();
     //main_Tree();
     //main_BinaryTree();
-    //main_Graph();
+    main_Graph();
 }
