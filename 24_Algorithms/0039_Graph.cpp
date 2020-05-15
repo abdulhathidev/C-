@@ -19,11 +19,11 @@ struct Edge
 
 class Graph
 {
-    //No of vertex
-    
 public:
+    //No of vertex
     int N;
     Node **AdjacencyList;
+    
     Graph(Edge edges[], int noOfVertex,int noOfEdges)
     {
         AdjacencyList = new Node*[noOfVertex];
@@ -62,32 +62,6 @@ void main_Graph()
     cout << n << endl;
     cout << sizeof(edges) << endl;
     cout << sizeof(edges[0]) << endl;
-    
-//    Node **adjList = new Node*[N]();
-//    for (int i = 0; i < N; i++) {
-//        adjList[i] = nullptr;
-//    }
-//    for(int i = 0; i < n; i++)
-//    {
-//        int src = edges[i].src;
-//        int dest = edges[i].dest;
-//        cout << i  << " : Source : " << edges[i].src << ", Destination : " << edges[i].dest << endl;
-//        //cout << adjList[i] << endl;
-//        if(adjList[src] == nullptr)
-//        {
-//            cout << adjList[src] << endl;
-//            adjList[src] = new Node(src);
-//            Node *node = new Node(dest);
-//            node->next = adjList[src]->next;
-//            adjList[src]->next = node;
-//        }
-//        else
-//        {
-//            Node *node = new Node(dest);
-//            node->next = adjList[src]->next;
-//            adjList[src]->next = node;
-//        }
-//    }
     
     Graph g(edges,N,n);
     

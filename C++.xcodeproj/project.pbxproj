@@ -17,6 +17,7 @@
 		064335972461489300C8AEAA /* 0039_Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 064335962461489300C8AEAA /* 0039_Graph.cpp */; };
 		06433599246160F600C8AEAA /* 001_PointerTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06433598246160F600C8AEAA /* 001_PointerTest.cpp */; };
 		06BE4949245509C200E8A2D0 /* 0037_Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06BE4948245509C200E8A2D0 /* 0037_Tree.cpp */; };
+		06E9D1692465F0BC007DE207 /* 0040_GraphUsingSTL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06E9D1682465F0BC007DE207 /* 0040_GraphUsingSTL.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -232,6 +233,7 @@
 		06E2DB77244A030F0030D65E /* 0019_SparseMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0019_SparseMatrix.cpp; sourceTree = "<group>"; };
 		06E2DB79244A09590030D65E /* 0020_Polynomial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0020_Polynomial.cpp; sourceTree = "<group>"; };
 		06E2DB7B244A097B0030D65E /* 0026_SinglyLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0026_SinglyLinkedList.cpp; sourceTree = "<group>"; };
+		06E9D1682465F0BC007DE207 /* 0040_GraphUsingSTL.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 0040_GraphUsingSTL.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -516,6 +518,7 @@
 				062A356E2457B3D300706DB5 /* 0037_Tree.h */,
 				064335942461401300C8AEAA /* 0038_BinaryTree.cpp */,
 				064335962461489300C8AEAA /* 0039_Graph.cpp */,
+				06E9D1682465F0BC007DE207 /* 0040_GraphUsingSTL.cpp */,
 				06227D962454047800999897 /* Log.cpp */,
 				06BC536424503492007214A5 /* Test.cpp */,
 			);
@@ -766,6 +769,7 @@
 				06227D98245404F000999897 /* 0033_QueueByArray.cpp in Sources */,
 				06BE4949245509C200E8A2D0 /* 0037_Tree.cpp in Sources */,
 				064335972461489300C8AEAA /* 0039_Graph.cpp in Sources */,
+				06E9D1692465F0BC007DE207 /* 0040_GraphUsingSTL.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
